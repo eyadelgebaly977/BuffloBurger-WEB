@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba247f3e-ad9d-4e33-abd9-475fea52c480" name="Changes" comment="Buffalo Burger Web Signin page using Selenium, TestNG and Cucumber" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "eyadelgebaly977"
+  }
+}]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="129c7acf-d3c8-4256-af04-43dc3a207690" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="129c7acf-d3c8-4256-af04-43dc3a207690" />
+        <option name="url" value="https://github.com/eyadelgebaly977/BuffloBurger-WEB" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2k6eZPIBG7aWKKSIu8Wm8ZHtH3M" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Cucumber Java.Feature: Login.executor": "Run",
+    "Cucumber Java.Scenario: (P2) Verify that user can login with valid phone number and password.executor": "Run",
+    "Cucumber Java.Scenario: (P3) user could not login with valid phone number and invalid password.executor": "Run",
+    "Cucumber Java.Scenario: (P5) user could not login with invalid phone number and invalid password.executor": "Run",
+    "Cucumber Java.Scenario: (P6) Verify that user can show his own password (1).executor": "Run",
+    "Cucumber Java.Scenario: (P6) Verify that user can show his own password.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Runner (1).executor": "Run",
+    "TestNG.Runner.executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/Buffalo Burger WEB",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\taskkkkk\Buffalo Burger" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: (P6) Verify that user can show his own password (1)">
+    <configuration name="Scenario: (P2) Verify that user can login with valid phone number and password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Login.feature" />
+      <option name="GLUE" value="org.example.stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="TaskManger" />
+      <option name="NAME_FILTER" value="^\(P2\) Verify that user can login with valid phone number and password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\(P2\) Verify that user can login with valid phone number and password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: (P2) Verify that user can login with valid phone number and password" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: (P6) Verify that user can show his own password (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Login.feature" />
+      <option name="GLUE" value="org.example.stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="TaskManger" />
+      <option name="NAME_FILTER" value="^\(P6\) Verify that user can show his own password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\(P6\) Verify that user can show his own password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: (P6) Verify that user can show his own password" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: (P6) Verify that user can show his own password" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Login.feature" />
+      <option name="GLUE" value="org.example.stepDefs" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Buffalo_Burger" />
+      <option name="NAME_FILTER" value="^\(P6\) Verify that user can show his own password$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^\(P6\) Verify that user can show his own password$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: (P6) Verify that user can show his own password" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TaskManger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.testRunner" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testRunner.Runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Buffalo_Burger" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.testRunner" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testRunner.Runner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: (P6) Verify that user can show his own password (1)" />
+        <item itemvalue="TestNG.Runner (1)" />
+        <item itemvalue="Cucumber Java.Scenario: (P2) Verify that user can login with valid phone number and password" />
+        <item itemvalue="TestNG.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: (P6) Verify that user can show his own password" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\es\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba247f3e-ad9d-4e33-abd9-475fea52c480" name="Changes" comment="" />
+      <created>1722608512267</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722608512267</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Buffalo Burger Web Signin page using Selenium, TestNG and Cucumber">
+      <option name="closed" value="true" />
+      <created>1722785296525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722785296525</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Buffalo Burger Web Signin page using Selenium, TestNG and Cucumber">
+      <option name="closed" value="true" />
+      <created>1722785448302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722785448302</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Buffalo Burger Web Signin page using Selenium, TestNG and Cucumber">
+      <option name="closed" value="true" />
+      <created>1722785638822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722785638822</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Buffalo Burger Web Signin page using Selenium, TestNG and Cucumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buffalo Burger Web Signin page using Selenium, TestNG and Cucumber" />
+  </component>
+</project>

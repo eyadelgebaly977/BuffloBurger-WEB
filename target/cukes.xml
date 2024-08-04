@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="172.124">
+<testcase classname="Login | users could use login functionality to use their accounts" name="(P1) Verify that user can successfully navigate to the login" time="13.963">
+<system-out><![CDATA[Given User Navigate to login pop-up.........................................passed
+Then User make sure that the current section is the login section...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Login | users could use login functionality to use their accounts" name="(P2) Verify that user can login with valid phone number and password" time="28.57">
+<system-out><![CDATA[Given User Navigate to login pop-up.........................................passed
+And user enter mobile number "01003803007" and password "Eyad123@"..........passed
+When user press login button................................................passed
+Then User is logged in and welcome message with the name appears in the top right of the screen.passed
+]]></system-out>
+</testcase>
+<testcase classname="Login | users could use login functionality to use their accounts" name="(P3) Verify that user can not login with valid phone number and invalid password" time="30.646">
+<system-out><![CDATA[Given User Navigate to login pop-up.........................................passed
+And user enter mobile number "01003803007" and password "Eyad123@@".........passed
+When user press login button................................................passed
+Then error message appears about the invalid password.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login | users could use login functionality to use their accounts" name="(P4) Verify that user can not login with invalid phone number and valid password" time="33.593">
+<system-out><![CDATA[Given User Navigate to login pop-up.........................................passed
+And user enter mobile number "01003003000" and password "Eyad123@"..........passed
+When user press login button................................................passed
+Then error message appears about the invalid phone number...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login | users could use login functionality to use their accounts" name="(P5) Verify that user can not login with invalid phone number and invalid password" time="18.308">
+<system-out><![CDATA[Given User Navigate to login pop-up.........................................passed
+And user enter mobile number "01003003000" and password "Eyad123@@".........passed
+When user press login button................................................passed
+Then error message appears about the invalid phone number first.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Login | users could use login functionality to use their accounts" name="(P6) Verify that user can show his own password" time="46.814">
+<failure message="element click intercepted: Element &lt;div class=&quot;font-main text-lg font-bold text-white hover:text-primary-main flex justify-center cursor-pointer&quot;&gt;...&lt;/div&gt; is not clickable at point (1463, 32). Other element would receive the click: &lt;div class=&quot;absolute inset-0 bg-transparent&quot; style=&quot;z-index: 2147483647; background: rgba(0, 0, 0, 0.3);&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=127.0.6533.89)&#10;Build info: version: '4.5.0', revision: 'fe167b119a'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [1db9b7b6337c1467a60d45296fb5930b, clickElement {id=f.3AB068775EFE8AA272604C778F034584.d.047E1B40A282BC7487D4168CD2C69DD6.e.41}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\es\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50149/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (1db9b7b6337c1467a60d45296fb5930b)] -&gt; xpath: //*[@id=&quot;__next&quot;]/div/div[1]/nav/div[4]/div[2]]&#10;Session ID: 1db9b7b6337c1467a60d45296fb5930b" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given User Navigate to login pop-up.........................................failed
+And user enter mobile number "01003003007" and password "Eyad123@"..........skipped
+When when user press eye icon...............................................skipped
+Then the entered password should appears....................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="font-main text-lg font-bold text-white hover:text-primary-main flex justify-center cursor-pointer">...</div> is not clickable at point (1463, 32). Other element would receive the click: <div class="absolute inset-0 bg-transparent" style="z-index: 2147483647; background: rgba(0, 0, 0, 0.3);">...</div>
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1db9b7b6337c1467a60d45296fb5930b, clickElement {id=f.3AB068775EFE8AA272604C778F034584.d.047E1B40A282BC7487D4168CD2C69DD6.e.41}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\es\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50149}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50149/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1db9b7b6337c1467a60d45296fb5930b)] -> xpath: //*[@id="__next"]/div/div[1]/nav/div[4]/div[2]]
+Session ID: 1db9b7b6337c1467a60d45296fb5930b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.example.stepDefs.StepLogin.loginPop(StepLogin.java:30)
+	at ✽.User Navigate to login pop-up(file:///F:/Buffalo%20Burger%20WEB/src/main/resources/features/Login.feature:40)
+]]></failure>
+</testcase>
+</testsuite>
